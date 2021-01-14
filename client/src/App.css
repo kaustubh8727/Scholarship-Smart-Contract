@@ -1,0 +1,172 @@
+.App-header {
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.Apply-header , .Verify-header{
+  margin-top:20px;
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  font-size:10px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+h3{
+  font-family: 'Open Sans', sans-serif;
+}
+.links{
+  text-align: center;
+  font-size: 30px;
+  margin:10px;
+}
+.sub-link1{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width:340px;
+  height: 70px;
+  font-size: 30px;
+  border : 0.5px solid black;
+  background-color: #7094db;
+  color:black;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color:black;
+  text-decoration: none;
+}
+.sub-link2{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width:340px;
+  height: 70px;
+  font-size: 30px;
+  margin: 20px;
+  border : 0.5px solid black;
+  text-align:center;
+  background-color: #7094db;
+  font-family: 'Open Sans', sans-serif;
+  color:black;
+  text-decoration: none;
+}
+.sub-link2:hover ,.sub-link1:hover{
+  color: #7094db;
+  background-color: white;
+}
+.apply-form{
+  display:inline-block;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  width: 560px;
+  height: 550px;
+  border: 2px solid black;
+  overflow: auto;
+}
+.sub-apply-form{
+  margin-left:20px;
+  margin-top: 20px;
+}
+label{
+  text-align: center;
+  margin-top: auto;
+  font-family: 'Open Sans', sans-serif;
+  float:left;
+}
+ input{
+   margin-bottom: 10px;
+   font-family: 'Open Sans', sans-serif;
+   width: 80%;
+   height: 25px;
+   padding-left: 10px;
+   font-size: 15px;
+}
+.apply-button{
+  width:120px;
+  height: 40px;
+  border: 1px solid black;
+  background: #000033;
+  color:white;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.apply-button:hover{
+  color: #000033;
+  background:white;
+}
+.result-div{
+  text-align: center;
+  display: inline-block;
+}
+.result-table{
+  text-align: center;
+}
+table tr{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  border: 1px solid black;
+  background-color: #d9d9d9;
+  color: #404040;
+  font-size: 20px;
+}
+tr,th{
+  padding: 10px;
+  border-collapse: collapse;
+  text-align: left;
+}
+.verify-button{
+  width:120px;
+  height: 40px;
+  border: 1px solid black;
+  background: #000033;
+  color:white;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.verify-button:hover{
+  color: #000033;
+  background:white;
+}
+.buttons{
+  display: inline-flex;
+}
+.click-button{
+  padding: 10px;
+  margin: 10px;
+  border-style: none;
+  background-color:#99ddff;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  height: 70px;
+  width:300px
+}
+.click-button:hover{
+  color:#0077b3;
+  background-color: white;
+}
+.verify-pay-button{
+  margin-top: 10px;
+  width:130px;
+  height:60px;
+  border: 1px solid black;
+  background: #000033;
+  color:white;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.verify-pay-button:hover{
+  color: #000033;
+  background:white;
+}
+.search-button{
+  text-decoration: none;
+  border: none;
+  width: 100px;
+  height: 35px;
+}
